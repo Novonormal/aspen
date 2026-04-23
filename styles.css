@@ -116,10 +116,10 @@ select {
 }
 
 .header-inner {
-  min-height: 52px;
+  min-height: 46px;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .brand {
@@ -129,15 +129,15 @@ select {
 }
 
 .brand img {
-  width: clamp(118px, 14.8vw, 182px);
+  width: clamp(128px, 16.2vw, 202px);
   height: auto;
 }
 
 .nav-toggle {
   display: none;
   margin-left: auto;
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.03);
@@ -1280,12 +1280,12 @@ select {
   }
 
   .header-inner {
-    min-height: 48px;
+    min-height: 44px;
     gap: 6px;
   }
 
   .brand img {
-    width: clamp(104px, 28vw, 136px);
+    width: clamp(112px, 30vw, 146px);
   }
 
   .section {
