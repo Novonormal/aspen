@@ -10,6 +10,7 @@
   var navToggle = document.querySelector(".nav-toggle");
   var mainNav = document.querySelector(".main-nav");
   var lastScrollY = window.scrollY;
+  var desktopParallax = window.matchMedia("(min-width: 921px)");
 
   if (navToggle && mainNav) {
     navToggle.addEventListener("click", function () {
@@ -41,8 +42,12 @@
       }
 
       document.querySelectorAll(".parallax").forEach(function (el) {
-        var speed = Number(el.getAttribute("data-speed") || 0.05);
-        el.style.transform = "translateY(" + currentY * speed * -1 + "px)";
+        if (desktopParallax.matches) {
+          var speed = Number(el.getAttribute("data-speed") || 0.05);
+          el.style.transform = "translateY(" + currentY * speed * -1 + "px)";
+        } else {
+          el.style.transform = "none";
+        }
       });
 
       lastScrollY = currentY;
@@ -115,5 +120,13 @@
 
   document.querySelectorAll("[data-year]").forEach(function (el) {
     el.textContent = String(new Date().getFullYear());
+  });
+
+  window.addEventListener("resize", function () {
+    if (!desktopParallax.matches) {
+      document.querySelectorAll(".parallax").forEach(function (el) {
+        el.style.transform = "none";
+      });
+    }
   });
 })();
