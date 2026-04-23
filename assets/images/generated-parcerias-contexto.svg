@@ -1,0 +1,51 @@
+﻿<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cena de parceria entre construtoras e incorporadoras Aspen">
+  <defs>
+    <linearGradient id="bgp" x1="120" y1="90" x2="1260" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#231B17"/>
+      <stop offset="1" stop-color="#3A2D24"/>
+    </linearGradient>
+    <linearGradient id="accp" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E2D1B8"/>
+      <stop offset="1" stop-color="#A88E73"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="900" rx="36" fill="url(#bgp)"/>
+  <rect x="74" y="78" width="1252" height="744" rx="30" fill="rgba(220,212,194,0.04)" stroke="rgba(220,212,194,0.24)"/>
+
+  <g>
+    <rect x="170" y="310" width="250" height="390" rx="22" fill="rgba(220,212,194,0.08)" stroke="rgba(220,212,194,0.3)"/>
+    <rect x="452" y="250" width="230" height="450" rx="22" fill="rgba(220,212,194,0.08)" stroke="rgba(220,212,194,0.3)"/>
+    <rect x="740" y="280" width="240" height="420" rx="22" fill="rgba(220,212,194,0.08)" stroke="rgba(220,212,194,0.3)"/>
+    <rect x="1012" y="330" width="220" height="370" rx="22" fill="rgba(220,212,194,0.08)" stroke="rgba(220,212,194,0.3)"/>
+  </g>
+
+  <g opacity="0.5">
+    <path d="M218 358H372" stroke="rgba(220,212,194,0.28)"/>
+    <path d="M218 396H372" stroke="rgba(220,212,194,0.28)"/>
+    <path d="M500 300H634" stroke="rgba(220,212,194,0.28)"/>
+    <path d="M500 338H634" stroke="rgba(220,212,194,0.28)"/>
+    <path d="M788 330H932" stroke="rgba(220,212,194,0.28)"/>
+    <path d="M788 368H932" stroke="rgba(220,212,194,0.28)"/>
+    <path d="M1058 378H1186" stroke="rgba(220,212,194,0.28)"/>
+    <path d="M1058 416H1186" stroke="rgba(220,212,194,0.28)"/>
+  </g>
+
+  <g>
+    <rect x="320" y="150" width="760" height="120" rx="24" fill="rgba(220,212,194,0.12)" stroke="rgba(220,212,194,0.34)"/>
+    <path d="M380 210H840" stroke="rgba(220,212,194,0.34)" stroke-width="2"/>
+    <path d="M380 238H700" stroke="rgba(220,212,194,0.26)" stroke-width="2"/>
+    <circle cx="972" cy="210" r="16" fill="url(#accp)"/>
+  </g>
+
+  <g>
+    <path d="M470 540C530 488 594 488 662 540L726 590C752 611 792 611 818 590L884 538C954 486 1020 488 1080 542" stroke="url(#accp)" stroke-width="24" stroke-linecap="round"/>
+    <path d="M512 576C558 538 602 538 652 576L700 612C748 648 822 648 870 612L918 576C968 538 1016 538 1062 576" stroke="rgba(220,212,194,0.65)" stroke-width="10" stroke-linecap="round"/>
+
+    <circle cx="662" cy="540" r="18" fill="#E2D1B8"/>
+    <circle cx="884" cy="538" r="18" fill="#E2D1B8"/>
+    <circle cx="772" cy="606" r="20" fill="#DCD4C2"/>
+  </g>
+
+  <path d="M120 786C274 734 436 724 620 758C812 792 1004 796 1266 736" stroke="rgba(220,212,194,0.34)" stroke-width="4" stroke-linecap="round"/>
+</svg>

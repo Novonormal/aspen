@@ -1,0 +1,76 @@
+﻿<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustracao de engenharia BIM e dados">
+  <defs>
+    <linearGradient id="bg2" x1="96" y1="60" x2="1280" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D231D"/>
+      <stop offset="1" stop-color="#3A2D24"/>
+    </linearGradient>
+    <linearGradient id="line2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E2D1B8"/>
+      <stop offset="1" stop-color="#A88E73"/>
+    </linearGradient>
+    <filter id="glow2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="900" rx="42" fill="url(#bg2)"/>
+  <rect x="90" y="84" width="1220" height="732" rx="30" fill="rgba(220,212,194,0.04)" stroke="rgba(220,212,194,0.26)"/>
+
+  <g opacity="0.35">
+    <path d="M160 190H1240" stroke="rgba(220,212,194,0.36)"/>
+    <path d="M160 250H1240" stroke="rgba(220,212,194,0.22)"/>
+    <path d="M160 310H1240" stroke="rgba(220,212,194,0.22)"/>
+    <path d="M160 370H1240" stroke="rgba(220,212,194,0.22)"/>
+    <path d="M160 430H1240" stroke="rgba(220,212,194,0.22)"/>
+    <path d="M160 490H1240" stroke="rgba(220,212,194,0.22)"/>
+    <path d="M160 550H1240" stroke="rgba(220,212,194,0.22)"/>
+    <path d="M160 610H1240" stroke="rgba(220,212,194,0.22)"/>
+    <path d="M160 670H1240" stroke="rgba(220,212,194,0.22)"/>
+
+    <path d="M220 150V760" stroke="rgba(220,212,194,0.32)"/>
+    <path d="M320 150V760" stroke="rgba(220,212,194,0.2)"/>
+    <path d="M420 150V760" stroke="rgba(220,212,194,0.2)"/>
+    <path d="M520 150V760" stroke="rgba(220,212,194,0.2)"/>
+    <path d="M620 150V760" stroke="rgba(220,212,194,0.2)"/>
+    <path d="M720 150V760" stroke="rgba(220,212,194,0.2)"/>
+    <path d="M820 150V760" stroke="rgba(220,212,194,0.2)"/>
+    <path d="M920 150V760" stroke="rgba(220,212,194,0.2)"/>
+    <path d="M1020 150V760" stroke="rgba(220,212,194,0.2)"/>
+    <path d="M1120 150V760" stroke="rgba(220,212,194,0.2)"/>
+  </g>
+
+  <g>
+    <path d="M250 640L470 520L700 640L470 760L250 640Z" fill="rgba(198,176,147,0.14)" stroke="rgba(220,212,194,0.5)" stroke-width="2"/>
+    <path d="M470 520V760" stroke="rgba(220,212,194,0.48)" stroke-width="2"/>
+    <path d="M250 640V420L470 300L700 420V640" fill="rgba(220,212,194,0.06)" stroke="rgba(220,212,194,0.38)" stroke-width="2"/>
+    <path d="M470 300V520" stroke="rgba(220,212,194,0.4)" stroke-width="2"/>
+    <path d="M250 420L470 540L700 420" stroke="rgba(220,212,194,0.38)" stroke-width="2"/>
+  </g>
+
+  <g>
+    <path d="M790 680L960 590L1130 680L960 770L790 680Z" fill="rgba(198,176,147,0.12)" stroke="rgba(220,212,194,0.46)" stroke-width="2"/>
+    <path d="M790 680V480L960 390L1130 480V680" fill="rgba(220,212,194,0.05)" stroke="rgba(220,212,194,0.34)" stroke-width="2"/>
+    <path d="M960 390V590" stroke="rgba(220,212,194,0.34)" stroke-width="2"/>
+    <path d="M790 480L960 590L1130 480" stroke="rgba(220,212,194,0.34)" stroke-width="2"/>
+  </g>
+
+  <g>
+    <rect x="210" y="190" width="290" height="118" rx="16" fill="rgba(220,212,194,0.12)" stroke="rgba(220,212,194,0.34)"/>
+    <path d="M240 270L290 250L330 258L382 232L430 238L470 220" stroke="url(#line2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="290" cy="250" r="6" fill="#DCD4C2"/>
+    <circle cx="382" cy="232" r="6" fill="#DCD4C2"/>
+  </g>
+
+  <g>
+    <rect x="905" y="200" width="300" height="144" rx="16" fill="rgba(220,212,194,0.12)" stroke="rgba(220,212,194,0.34)"/>
+    <rect x="940" y="236" width="34" height="72" rx="8" fill="rgba(220,212,194,0.36)"/>
+    <rect x="988" y="220" width="34" height="88" rx="8" fill="rgba(220,212,194,0.45)"/>
+    <rect x="1036" y="250" width="34" height="58" rx="8" fill="rgba(220,212,194,0.28)"/>
+    <rect x="1084" y="206" width="34" height="102" rx="8" fill="rgba(220,212,194,0.5)"/>
+    <rect x="1132" y="228" width="34" height="80" rx="8" fill="rgba(220,212,194,0.36)"/>
+  </g>
+
+  <g filter="url(#glow2)">
+    <circle cx="1040" cy="560" r="90" fill="rgba(220,212,194,0.2)"/>
+  </g>
+</svg>
