@@ -1285,7 +1285,7 @@ select {
   }
 
   .brand img {
-    width: clamp(78px, 21vw, 102px);
+    width: clamp(96px, 26vw, 126px);
     height: auto;
   }
 
