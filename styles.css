@@ -116,7 +116,7 @@ select {
 }
 
 .header-inner {
-  min-height: 40px;
+  min-height: 38px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -129,7 +129,7 @@ select {
 }
 
 .brand img {
-  width: clamp(146px, 18.6vw, 224px);
+  width: clamp(128px, 16.2vw, 196px);
   height: auto;
 }
 
@@ -1280,12 +1280,12 @@ select {
   }
 
   .header-inner {
-    min-height: 36px;
+    min-height: 34px;
     gap: 4px;
   }
 
   .brand img {
-    width: clamp(124px, 34vw, 160px);
+    width: clamp(112px, 30vw, 146px);
     height: auto;
   }
 
