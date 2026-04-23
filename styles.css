@@ -129,7 +129,7 @@ select {
 }
 
 .brand img {
-  width: clamp(104px, 13vw, 160px);
+  width: clamp(118px, 14.8vw, 182px);
   height: auto;
 }
 
@@ -1285,7 +1285,7 @@ select {
   }
 
   .brand img {
-    width: clamp(92px, 26vw, 122px);
+    width: clamp(104px, 28vw, 136px);
   }
 
   .section {
